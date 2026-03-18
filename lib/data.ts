@@ -10,11 +10,11 @@ export const EXPERIENCE = [
   {
     id: 'EXP_001',
     role: 'Backend Developer',
-    company: 'TechNova Solutions',
+    company: 'Sparktech Agency',
     type: 'Full-time',
     period: 'Jan 2024 — Present',
     duration: '1 yr 2 mos',
-    location: 'Dhaka, Bangladesh (Remote)',
+    location: 'Dhaka, Bangladesh',
     current: true,
     description:
       'Architecting and maintaining scalable backend services powering a SaaS platform with 10k+ active users. Leading backend decisions across microservice boundaries.',
@@ -28,29 +28,9 @@ export const EXPERIENCE = [
     color: 'orange',
   },
   {
-    id: 'EXP_002',
-    role: 'Junior Backend Developer',
-    company: 'DevCraft Agency',
-    type: 'Contract',
-    period: 'Jun 2023 — Dec 2023',
-    duration: '7 mos',
-    location: 'Dhaka, Bangladesh',
-    current: false,
-    description:
-      'Delivered backend solutions for 3 client projects across e-commerce and logistics domains. Worked closely with frontend teams to design efficient API contracts.',
-    highlights: [
-      'Built RESTful APIs with Express.js for an e-commerce platform handling 500+ daily orders',
-      'Implemented role-based access control (RBAC) with JWT authentication across multi-tenant systems',
-      'Developed live GPS location tracking feature using WebSockets with sub-second update intervals',
-      'Optimized MySQL query performance — reduced average response time from 800ms to 120ms',
-    ],
-    stack: ['Node.js', 'Express.js', 'MySQL', 'JWT', 'WebSockets', 'Docker'],
-    color: 'blue',
-  },
-  {
     id: 'EXP_003',
     role: 'Backend Intern',
-    company: 'CloudBridge Labs',
+    company: 'BD Task Ltd',
     type: 'Internship',
     period: 'Jan 2023 — May 2023',
     duration: '5 mos',
@@ -65,27 +45,9 @@ export const EXPERIENCE = [
       'Implemented KYC verification API integrating third-party identity verification provider',
     ],
     stack: ['Python', 'FastAPI', 'PostgreSQL', 'GitHub Actions', 'Docker'],
-    color: 'orange',
-  },
-  {
-    id: 'EXP_004',
-    role: 'Computer Science Student',
-    company: 'University — CS Department',
-    type: 'Academic',
-    period: '2021 — Present',
-    duration: '3+ yrs',
-    location: 'Bangladesh',
-    current: true,
-    description:
-      "Pursuing a Bachelor's degree in Computer Science with a focus on distributed systems, algorithms, and software engineering. Parallel to professional work.",
-    highlights: [
-      'Coursework: Data Structures, OS, Database Systems, Computer Networks, Software Engineering',
-      'Built multiple academic projects applying theoretical concepts to real backend implementations',
-      'Active participant in competitive programming and university hackathons',
-    ],
-    stack: ['C', 'C++', 'Java', 'Python', 'Algorithms', 'OS', 'Networks'],
     color: 'blue',
   },
+
 ]
 
 
